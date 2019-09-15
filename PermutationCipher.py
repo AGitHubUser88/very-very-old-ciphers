@@ -1,3 +1,9 @@
+'''
+This is an example of using function overloading to minimize use of repeating code applied to the permutation cipher.
+
+The permutation cipher: Rearranges the characters n a message based on shifting each chaacter a specific positional lenght based on any given number divisible by the entire lenght of the message
+'''
+
 import random
 
 def getKey(m,key,command):
