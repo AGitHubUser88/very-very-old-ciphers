@@ -11,7 +11,7 @@ def getKey(m,key,command):
     if command == 'Encrypt':
        key=[]
        mList = []
-    
+       
        for h in range(1,m+1): mList += [h]
             
        for i in range(1,m+1):
