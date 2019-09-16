@@ -1,7 +1,6 @@
 '''
 This is an example of using function overriding to minimize use of repeating code applied to the permutation cipher.
 
-The permutation cipher: Rearranges the characters in a message based on shifting each character a specific length modulo the length of the message equal to any number divisible by the length of the message
 '''
 
 import random
