@@ -1,7 +1,7 @@
 '''
-This is an example of using function overloading to minimize use of repeating code applied to the permutation cipher.
+This is an example of using function overriding to minimize use of repeating code applied to the permutation cipher.
 
-The permutation cipher: Rearranges the characters n a message based on shifting each chaacter a specific positional lenght based on any given number divisible by the entire lenght of the message
+The permutation cipher: Rearranges the characters in a message based on shifting each character a specific length modulo the length of the message equal to any number divisible by the length of the message
 '''
 
 import random
